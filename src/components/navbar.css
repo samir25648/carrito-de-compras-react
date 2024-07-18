@@ -1,0 +1,40 @@
+/* navbar.css */
+.navbar {
+  background-color: #e9e9e9 !important; 
+}
+
+.navbar .nav-link {
+  color: #333 !important; 
+}
+
+.navbar .nav-link.active {
+  color: #007bff !important; 
+}
+
+.navbar .navbar-brand {
+  color: #333 !important; 
+}
+
+.navbar .carrito {
+  width: 30px; 
+  height: auto;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.navbar .carrito-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 13px;
+}
